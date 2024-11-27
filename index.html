@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Game - Jueguito de carreras y calaveras</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>Welcome to the Video Game</h1>
+    <div class="game-container"> 
+        <canvas id="game"></canvas>
+
+        <div class="btns">
+            <button id="up">arriba</button>
+            <button id="left">izquierda</button>
+            <button id="right">derecha</button>
+            <button id="down">abajo</button>
+        </div>
+
+        <div class="messages">
+            <p>Vida:<span id="lives"></span></p>
+            <p>Tiempo:<span id="time"></span></p>
+            <p>Puntos:<span id="points"></span></p>
+            <p>Nivel:<span id="level"></span></p>
+            <p>Record:<span id="highScore"></span></p>
+         
+        </div>
+    </div>
+    <script src="./maps.js"></script>
+    <script src="./game.js"></script>
+</body>
+</html>
